@@ -59,7 +59,6 @@
 | -------------- | --------------- | ------------------------------------------------------------ | ---- |
 | `app_id`       | `string`        | 快手注册的app_id                                             | 是   |
 | `access_token` | `string`        | 第三方业务server维护的access_token                           | 是   |
-| `bizId`        | `string`        | 子业务，联系快手方获取                                       | 是   |
 | `file`         | `multipartFile` | 直播封面，不超过2M，只能上传jpg格式，推荐尺寸720x1280，封面文件命名要以`.jpg`结尾（例子 cover.jpg） | 是   |
 | `caption`      | `string`        | 直播标题，长度不超过13个汉字，默认""                         | 否   |
 | `panoramic`    | `int`           | 默认 `0`，非全景直播 `0`、180 全景直播 `1`、360 全景直播  `2` | 否   |
@@ -97,7 +96,6 @@
 | ---------------- | -------- | ---------------------------------- | ---- |
 | `app_id`         | `string` | 快手注册的app_id                   | 是   |
 | `access_token`   | `string` | 第三方业务server维护的access_token | 是   |
-| `bizId`          | `string` | 子业务。联系快手方获取             | 是   |
 | `liveStreamName` | `string` | 直播流名                           | 是   |
 
 ```json
